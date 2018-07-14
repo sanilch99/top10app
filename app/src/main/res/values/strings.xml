@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Top10</string>
+    <string name="name">Name</string>
+    <string name="artist">Artist</string>
+    <string name="summary">Summary</string>
+    <string name="free_apps">Free Apps</string>
+    <string name="paid_apps">Paid Apps</string>
+    <string name="songs">Songs</string>
+    <string name="top_10">TOP 10</string>
+    <string name="top_25">TOP 25</string>
+</resources>

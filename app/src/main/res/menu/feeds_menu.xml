@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuFA"
+        android:title="@string/free_apps" />
+
+    <item
+        android:id="@+id/mnuPA"
+        android:title="@string/paid_apps" />
+
+    <item
+        android:id="@+id/mnuSongs"
+        android:title="@string/songs" />
+    <group
+        android:id="@+id/mnuGrpLimit"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnutt"
+            android:title="@string/top_10"
+            android:checked="true"/>
+        <item
+            android:id="@+id/mnuttf"
+            android:title="@string/top_25" />
+    </group>
+</menu>
